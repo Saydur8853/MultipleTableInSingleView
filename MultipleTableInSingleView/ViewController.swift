@@ -13,7 +13,7 @@ class ViewController: UIViewController {
    
     override func viewDidLoad() {
         
-        // Do any additional setup after loading the view, typically from a nib.
+        
         var dictionaryData = ["A":["Apple","Ant"],
                               "B":["Banana","bat"],
                               "C":["cat","cow"],
@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         print(dictionaryData)
         
         super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
     }
     
     
